@@ -1,0 +1,6 @@
+{
+    "name": "Minecraft Server",
+    "dockerFile": "Dockerfile",
+    "forwardPorts": [25565],
+    "postCreateCommand": "screen -dmS minecraft java -Xmx1024M -Xms1024M -jar /minecraft/server.jar nogui"
+}
